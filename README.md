@@ -222,5 +222,3 @@ full join answers a on q.task_id = a.task_id
     where a.task_id is not null
     order by q.at, a.at
 ```
-### Дедлайны сдачи и проверки задания:
-- 5 октября 23:59 (сдача) / 8 октября, 23:59 (проверка)
